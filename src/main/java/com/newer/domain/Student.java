@@ -1,5 +1,7 @@
 package com.newer.domain;
 
+import java.util.Date;
+
 import javax.persistence.Column;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -16,7 +18,14 @@ public class Student {
 	private String sname;
 	private String sex;
 	private String sage;
+	private Date birthday;
 	
+	public Date getBirthday() {
+		return birthday;
+	}
+	public void setBirthday(Date birthday) {
+		this.birthday = birthday;
+	}
 	@Column(name = "headimg")
 	private String headimg;
 
