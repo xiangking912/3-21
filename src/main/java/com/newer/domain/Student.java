@@ -26,6 +26,7 @@ public class Student {
 	public void setBirthday(Date birthday) {
 		this.birthday = birthday;
 	}
+
 	@Column(name = "headimg")
 	private String headimg;
 
