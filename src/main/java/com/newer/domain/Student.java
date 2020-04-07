@@ -16,7 +16,16 @@ public class Student {
 	private String sname;
 	private String sex;
 	private String sage;
+	private String birthday;
 	
+	
+	
+	public String getBirthday() {
+		return birthday;
+	}
+	public void setBirthday(String birthday) {
+		this.birthday = birthday;
+	}
 	@Column(name = "headimg")
 	private String headimg;
 
