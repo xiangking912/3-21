@@ -12,4 +12,6 @@ public interface StudentService {
 	public void DeleteById(int id);
 	public void Insert(Student stu);
 	public Student findStuById(int id);
+	
+	public boolean updatePwd(Student stu);
 }

@@ -48,4 +48,10 @@ public class StudentServiceImpl implements StudentService{
 		return dao.selectByPrimaryKey(id);
 	}
 
+	@Override
+	public boolean updatePwd(Student stu) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
 }
